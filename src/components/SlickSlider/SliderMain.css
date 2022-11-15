@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Nunito+Sans&family=PT+Serif:ital@1&family=Playfair+Display&family=Poor+Story&family=Roboto+Slab:wght@200&family=Source+Code+Pro:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+.slider-container {
+  width: 900px;
+  margin: 5px auto;
+}
+
+
+.slider-h1  {
+  font-size: 2rem;
+  font-family: 'Lora', serif;
+  color: #fff;
+}
+
+ .slider-img {
+  width: 100%;
+  height: 550px;
+}
+.slider-button {
+  display: inline-block;
+  width: 150px;
+  height: 3rem;
+  font-size: 1rem;
+  line-height: 3rem;
+  background: gray;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'PT Serif', serif;
+}
+.slider-button:hover {
+  background: white;
+  color: grey;
+}
+@media screen and (max-width: 786px) {
+  .slider-container {
+    width: 90%;
+    right: -100%;
+    margin-top: 1rem;
+  }
+  .slider-button {
+    left: 0;
+  }
+  .slider-h1  {
+    left: 0;
+  }
+  .slider-img {  
+    height: 300px;
+  }
+  .slider-h1  {
+    font-size: 20px;  
+    font-weight: normal;
+  }
+}
+.slider-button {
+  display: inline-block;
+  width: 150px;
+  height: 3rem;
+  font-size: 1.2rem;
+  line-height: 3rem;
+  background: gray;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'PT Serif', serif;
+}
+.slider-button:hover {
+  background: white;
+  color: grey;
+}
+
+

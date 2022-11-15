@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+
+.about-container {
+  background-image: linear-gradient(to bottom right, var(--primary), var(--secondary));
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white; 
+
+}
+.about-heading {
+  padding-top: 15rem;
+  text-align: center;
+}
+.about-heading > h1 {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 60px;
+}
+.about-heading > h3 {
+  padding: 3rem;
+  font-size: 20px;
+}
+
+.b-t-n{
+  display: block;
+  width: 500px;
+  height: 3rem;
+  position: absolute;
+  left: 33%;
+  font-size: 2rem;
+  line-height: 3rem;
+  background: transparent; 
+  color: white;
+  border: 0;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 1rem;
+  border-radius: 5px;
+  outline: 1px solid white;
+  font-family: 'PT Serif', serif;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.b-t-n:hover {
+  color: white;
+  background: #000;
+}
+
+@media screen and (max-width: 786px) {
+  .b-t-n {
+    position: relative;
+    width: 90%;
+    left: 20px;
+  }
+}

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+:root {
+	--primary: #D81E5B;
+	--secondary: #8A4EFC;
+	--light: #EEE;
+	--light-alt: #61759b;
+	--dark: #131A26;
+	--dark-alt: #202B3E;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #03001e;
+  box-sizing: border-box;
+}
+
+.button {
+  display: block;
+  width: 150px;
+  height: 3rem;
+  line-height: 3rem;
+  background: var(--dark-alt); 
+  color: var(--light);
+  border: 0;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 1rem;
+  border-radius: 5px;
+  outline: 1px solid var(--secondary);
+  font-family: 'PT Serif', serif;
+  transition: all 0.3s ease-in;
+}
+.button:hover {
+  background: var(--primary);
+}
+

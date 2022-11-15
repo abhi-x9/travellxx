@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Nunito+Sans&family=PT+Serif:ital@1&family=Playfair+Display&family=Poor+Story&family=Roboto+Slab:wght@200&family=Source+Code+Pro:ital@1&display=swap');
+
+.container-homee {
+  margin: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: rgba(225, 225, 225, 10) 0px 25px 20px -20px;
+  border-radius: 2px;
+  background: linear-gradient(135deg, #4568DC, #B06AB3);
+  padding: 50px 0;
+}
+.container-homee > h1 {
+  color: white;
+  position: absolute;
+  font-size: 1.5rem;
+}
+.img {
+  margin: 1rem;
+}
+.main {
+  margin: 1rem;
+}
+.img-home {
+  width: 300px;
+  height: 200px;
+  border-radius: 2px;
+}
+
+.info {
+  padding: 1rem;
+}
+
+.info >  h2 {
+  font-family: 'Lora', serif;
+  color: #fff;
+}
+
+@media screen and (max-width: 786px) {
+  .container-homee {
+    box-shadow: none;
+    background: none;
+  }
+}
